@@ -58,11 +58,6 @@ public class Triangle implements Polygon {
     }
 
     @Override
-    public int getRotation() {
-        return rotationAngle;
-    }
-
-    @Override
     public Point getCenter() {
         float centerX = 0f;
         float centerY = 0f;
@@ -74,6 +69,11 @@ public class Triangle implements Polygon {
         centerY /= 3f;
 
         return new TruePoint(centerX, centerY);
+    }
+
+    @Override
+    public int getRotation() {
+        return rotationAngle;
     }
 
     @Override

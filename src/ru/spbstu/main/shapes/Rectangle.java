@@ -28,11 +28,6 @@ public class Rectangle implements Polygon {
     }
 
     @Override
-    public float getArea() {
-        return width * height;
-    }
-
-    @Override
     public int getRotation() {
         return rotationAngle;
     }
@@ -40,6 +35,11 @@ public class Rectangle implements Polygon {
     @Override
     public Point getCenter() {
         return center;
+    }
+
+    @Override
+    public float getArea() {
+        return width * height;
     }
 
     @Override
