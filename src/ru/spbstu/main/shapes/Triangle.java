@@ -82,6 +82,7 @@ public class Triangle implements Polygon {
             vertex.move(dx, dy);
         }
     }
+
     /*
      * TODO: Реализовать класс 'Triangle'
      * 1. Используйте наследование.

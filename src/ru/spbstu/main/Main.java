@@ -1,5 +1,6 @@
 package ru.spbstu.main;
 
+
 import ru.spbstu.main.shapes.Shape;
 import ru.spbstu.main.shapes.Circle;
 import ru.spbstu.main.shapes.TruePoint;

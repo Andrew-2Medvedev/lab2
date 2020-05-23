@@ -37,6 +37,7 @@ public class Circle implements Ellipse {
     public void moveBy(float dx, float dy) {
         center.move(dx, dy);
     }
+
     /*
      * TODO: Реализовать класс 'Circle'
      * 1. Используйте наследование.

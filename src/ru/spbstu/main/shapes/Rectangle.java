@@ -46,6 +46,7 @@ public class Rectangle implements Polygon {
     public void moveBy(float dx, float dy) {
         this.center.move(dx, dy);
     }
+
     /*
      * TODO: Реализовать класс 'Rectangle'
      * 1. Используйте наследование.

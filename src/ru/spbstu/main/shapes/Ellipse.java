@@ -28,5 +28,6 @@ public interface Ellipse extends Shape {
      *
      * @return длина эллипса
      */
+
     float getLength();
 }

@@ -55,6 +55,7 @@ public interface Shape {
     Point getCenter();
 
     void moveBy(float dx, float dy);
+
     /*
      * TODO: изменить определение метотода 'getRotation()'
      * Измените определение метода таким образом, чтобы
